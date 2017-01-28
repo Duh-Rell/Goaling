@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Goaling.Properties {
+namespace Goaling.DAL.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
@@ -28,9 +28,9 @@ namespace Goaling.Properties {
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
         [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-01G1TOE\\LocalDB;Initial Catalog=Goaling;Integrated Security=T" +
             "rue")]
-        public string GoalingConnectionStringLocal {
+        public string GoalingConnectionString {
             get {
-                return ((string)(this["GoalingConnectionStringLocal"]));
+                return ((string)(this["GoalingConnectionString"]));
             }
         }
     }
